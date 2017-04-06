@@ -1,0 +1,21 @@
+SELECT d.username, u.account_status
+    FROM DBA_USERS_WITH_DEFPWD d, DBA_USERS u
+    WHERE d.username = u.username and u.username=’SYS’
+    ORDER BY 2,1;
+	
+	
+	
+	Used HOSTNAME adapter to resolve the alias
+Attempting to contact (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=))(ADDRESS=(PROTO
+COL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+OK (10 msec)
+
+
+
+insert into items values('Panasonic','EEUEE2D470','47mfd,200V,12.5 x 20, 1000 H');
+insert into items values('Panasonic','EEUFR1H100','10mfd,50V,5 x 11 8000 H');
+insert into items values('Panasonic','EEUFR1H4R7','4.7mfd, 50V, 5 x 11 8000 H');
+insert into items values('Panasonic','EEHFR1H101','100mfd, 50V, 8 x 11 8000 H');
+insert into items values('Panasonic','EECF5RH105','Super Capacitor');
+insert into items values('Sony','KD34XS955','Capacitor, Mylar, 0.22 mfd 275 v 10 %');
+insert into items values('Sony','KD34XS955','Capacitor, Mylar, 0.47 mfd 0 v 10 %');

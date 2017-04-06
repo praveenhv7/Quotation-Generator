@@ -1,0 +1,7 @@
+INDEX VERSION 1.126 OT2
+E:\Stock n quotation\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\208182693.index
+\Arbutus\src
+E:\Stock n quotation\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2642504063.index
+\Front_End\src
+E:\Stock n quotation\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4139619062.index
+\Quotation_front_end\src

@@ -1,0 +1,241 @@
+function GetData()
+{
+	mainData={
+  "qtnNumber":$("#qtn_num").val(),
+  "companyName":$("#company_name").val(),
+  "address":$("#address").val(),
+  "name":$("#name").val(),
+  "subject":$("#subject").val(),
+  "reference":$("#ref").val(),
+  "freight":$("#freight").val(),
+  "remarks":$("#remarks").val(),
+  "payment":$("#payment").val(),
+  "salesTax":$('#salesTax').val(),
+  "validity":$('#validity').val(),
+  "notes":$('#notes').val()
+  
+	};
+ console.log(mainData);
+ var oTable = document.getElementById('myTable');
+
+//gets rows of table
+var rowLength = oTable.rows.length;
+ data=new Array();
+//loops through rows    
+for (var i = 1; i < rowLength; i++){
+ var array=new Array();
+ 
+  //gets cells of current row
+  var oCells = oTable.rows.item(i).cells;
+
+  //gets amount of cells of current row
+  var cellLength = oCells.length;
+
+  //loops through each cell in current row
+  for(var j = 0; j < cellLength; j++){
+     /* get your cell info here */
+	  
+      var cellVal = oCells.item(j).firstChild.value;
+	  if(j==3)                                                            //to remove '1.' from make items as data is printed to pdf
+	  {
+	     var str=cellVal;
+	     var len=str.length;
+	     var cellVal = str.substring(2,len );
+	  }
+	  
+//	  var cellVal = oCells.item(j).childNodes[0].nodeValue;
+//      alert(cellVal);
+	  console.log(j+"-"+cellVal);
+      array[j]=cellVal;  
+      
+      
+  }
+  rowData={
+	"serialNumber":array[0],
+	"partNumber":array[1],
+	"description":array[2],
+	"make":array[3],
+	"qty":array[4],
+	"moq":array[5],
+	"spq":array[6],
+	"leadTime":array[7],
+	"unitPrice":array[8]
+  };
+  
+  data.push(rowData);
+  
+}
+
+ jsonObjItems=JSON.stringify(data);
+ jsonObjMain=JSON.stringify(mainData);
+ 
+
+}
+ 
+
+
+
+
+
+function sendData()
+{
+	GetData();
+//	alert("called");
+//		$.ajax({url:"http://localhost:8082/Arbutus/Controller?argument=insert",
+//		type:"POST",
+//		data:{"details":jsonObjMain,"items":jsonObjItems},
+//		async:false,
+//		success:function(result){alert("called");}
+//		});	
+
+}
+
+var allMake;
+var makeArray=[];
+
+function getData()
+{
+$.ajax({url:"http://localhost:8082/Arbutus/Controller?argument=getMake",
+	type:"POST",
+	async:false,
+	success:function(result){
+		var i=1;									//to keep counter so that easily json object for item and description can be extracted
+		allMake=result;
+		dataObj=$.parseJSON(allMake);
+		for(var index=0;index<dataObj.length;index++)
+			{
+//		dataObjE=dataObj[0].itemDesc;
+//		alert(dataObj[index]);
+		makeArray.push(i+"."+dataObj[index].make);   //adding values to array
+		++i;
+			}
+	}
+	});	
+
+}
+function populates()
+{
+		$(".makeFill").autocomplete({
+		source:makeArray,
+		select:function(event,ui){								//to populate parts for a selected make by using select 
+			console.log(ui.item.label);
+			var elem=ui.item.label;
+			var num=Number(elem.substring(0, 1));
+			num=num-1;
+			console.log(num);
+			dataObjE=dataObj[num].itemDesc;
+			var item=Object.keys(dataObjE);
+			console.log(item[0]);
+			$(".partFill").autocomplete({
+				source:item,
+				select:function(event,ui){
+					var elemPart=ui.item.label;
+					var desc=dataObjE[elemPart];
+					console.log(this.parentNode.nextSibling.childNodes);
+					this.parentNode.nextSibling.childNodes[0].setAttribute("value",desc);
+					console.log(desc);
+					
+				}
+			});
+			
+		}
+	});
+	
+	$(".makeFill").css("background-color", "white"); 
+
+}
+
+
+function insertCust()
+{
+	
+	CustData={
+	  "firstName":$('#fName').val(),
+	  "lastName":$('#lName').val(),
+	  "designation":$('#designation').val(),
+	  "companyName":$('#companyName').val(),
+	  "mobileNum":$('#mobileNum').val(),
+	  "division":$('#division').val(),
+	  "vat":$('#vat').val(),
+	  "salesTaxCust":$('#salesTaxCust').val(),
+	  "addressCust":$('#addressCust').val()
+	};
+	 jsonObjCustDetails=JSON.stringify(CustData);
+	$.ajax({url:"http://localhost:8082/Arbutus/Controller?argument=insertCust",
+		type:"POST",
+		data:{"custDet":jsonObjCustDetails},
+		async:false,
+		success:function(result){alert("called");}
+		});	
+
+}
+var allCompany;
+var CompanyArray=[];
+function findCompany()
+{
+	var name=$('#company_name').val();
+	$.ajax({url:"http://localhost:8082/Arbutus/Controller?argument=getCompany",
+		type:"POST",
+		data:{"cName":name},
+		async:true,
+		success:function(result){
+			var i=1;									//to keep counter so that easily json object for item and description can be extracted
+			allCompany=result;
+			dataObjCompany=$.parseJSON(allCompany);
+			for(var index=0;index<dataObjCompany.length;index++)
+				{
+//			dataObjE=dataObj[0].itemDesc;
+//			alert(dataObj[index]);
+			CompanyArray.push(dataObjCompany[index]);   //adding values to array
+			++i;
+				}
+		}
+		});		
+
+	populateCustomer();
+}
+var customerArray=[];
+function populateCustomer()
+{
+	$('#company_name').val(null);
+	$('#company_name').autocomplete({
+		source:CompanyArray,
+		select:function(event,ui){
+			var company_name=ui.item.label;
+			CompanyArray=[];
+			console.log(company_name);
+				$.ajax({url:"http://localhost:8082/Arbutus/Controller?argument=getCustomerAddress",
+				type:"POST",
+				data:{"company_name":company_name},
+				async:false,
+				success:function(result){
+					
+				console.log(result);
+				 customerObj=$.parseJSON(result);
+				
+				for(var i=0;i<customerObj.length;i++)
+					{
+					 var counter=i+1;
+					var customer=counter+"."+customerObj[i].customerName;
+					 customerArray.push(customer);
+					}
+				
+				$('#name').autocomplete({
+					source:customerArray,
+					select:function(event,ui){
+						console.log(ui.item.label);
+						var value=parseInt(ui.item.label.substring(0,1));
+						console.log(value);
+						console.log(this.parentNode.parentNode.previousSibling.nodeName);
+					}
+				
+				});
+				
+				}
+				});	
+			
+			
+		}
+	});	
+}
+

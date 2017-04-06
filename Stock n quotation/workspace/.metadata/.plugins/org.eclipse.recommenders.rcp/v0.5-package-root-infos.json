@@ -1,0 +1,717 @@
+[
+  {
+    "symbolicName": "javax.faces.jsf-impl",
+    "version": {
+      "major": 1,
+      "minor": 2,
+      "micro": 15,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "40e7c9135d7fe175b8987f6508c488e6748a79b5",
+    "jarFileModificationDate": "2015-03-22T15:50:06.373+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\libraries\\JSF 1.2 (Mojarra JSF API Implementation 1.2_15-b01-FCS) (2)\\mojarra-1.2_15-b01-FCS\\lib\\jsf-impl.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.logging",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f",
+    "jarFileModificationDate": "2015-03-22T17:27:58+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\commons-logging-1.1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "log4j",
+    "version": {
+      "major": 1,
+      "minor": 2,
+      "micro": 17,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5af35056b4d257e4b64b9e8069c0746e8b08629f",
+    "jarFileModificationDate": "2015-03-22T17:27:58+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\log4j-1.2.17.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a194efc7e6704624ceaab4f6d8312d31be6ff9b8",
+    "jarFileModificationDate": "2014-10-23T10:29:34.601+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jsp-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4c2088eb94a77016af9f3b43cc7adc80c84c9fd2",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\jsp-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "928fa1a2dc882d46066bf04b4cf22e2829915fcc",
+    "jarFileModificationDate": "2014-10-23T10:29:34.631+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.glassfish.javax.servlet",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "SNAPSHOT"
+    },
+    "jarFileFingerprint": "e1668afcefba0a18a35f3d190b649600fec93b77",
+    "jarFileModificationDate": "2009-12-09T11:46:04+05:30",
+    "location": "E:\\software\\serrvlet\\servlet-3_0-final-jar_and_schema\\javax.servlet.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-dbcp",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "72b580b1c64a9da08a9455180b90065669ab1e31",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\tomcat-dbcp.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "javax.faces/com.sun.faces.mojarra-jsf-impl",
+    "version": {
+      "major": 2,
+      "minor": 0,
+      "micro": 3,
+      "qualifier": "FCS"
+    },
+    "jarFileFingerprint": "534cd53458383e7a88ec618188e8c6b95d072e6c",
+    "jarFileModificationDate": "2015-03-22T13:11:09.571+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\libraries\\JSF 2.0 (Mojarra 2.0.3-FCS) (1)\\mojarra-2.0.3-FCS\\lib\\jsf-impl.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b5fdbbfe2aa789f17edbbb930dfceaff5ac03c7f",
+    "jarFileModificationDate": "2014-10-23T10:29:34.601+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "servlet-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3abc24ee20d391ab5fc27d548c7b7149237b744d",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\servlet-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7aff2440c9c7334cd754accb001c7fb28144a0a9",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\catalina.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.itextpdf.itext-xtra",
+    "version": {
+      "major": 5,
+      "minor": 5,
+      "micro": 5,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bf16e90befe6e290e4ba4e117def7a02b0c05455",
+    "jarFileModificationDate": "2015-02-12T11:08:04+05:30",
+    "location": "E:\\Stock n quotation\\jars used\\itext-5.5.5\\itext-xtra-5.5.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "el-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9b2915f70905fcd366c7cde00cf25ccd2246e38b",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\el-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina-ant",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "537d459ed330b09ef6957c24ffe23c348432bee9",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\catalina-ant.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-es",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "451726753c798e6d6625dca5113a4d5d6b770b8b",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\tomcat-i18n-es.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.itextpdf",
+    "version": {
+      "major": 5,
+      "minor": 5,
+      "micro": 5,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dfa986eb534a5b0c6684343c9adc06614985e54f",
+    "jarFileModificationDate": "2015-02-12T11:07:52+05:30",
+    "location": "E:\\Stock n quotation\\jars used\\itext-5.5.5\\itextpdf-5.5.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4c517b0332501940a54306743c233c6e5e15d2b2",
+    "jarFileModificationDate": "2014-10-23T10:29:34.601+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e8a7bc347bea23d7535251c0728dff0e4f3f1c61",
+    "jarFileModificationDate": "2014-10-23T10:29:37.428+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jasper-el",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ea8e38e8f754e69f0ca05cbdcc675d822ef68d8e",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\jasper-el.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-coyote",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7273cc3e5b5c8777f32bce8b5894362fea3baebb",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\tomcat-coyote.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "61b8c6cd83b702f8b9a66bcf349de71cfc3068d9",
+    "jarFileModificationDate": "2014-10-23T10:29:34.621+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "catalina-tribes",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cd05e78a609548c1b46e7a0595234ab88ca651da",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\catalina-tribes.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.itextpdf",
+    "version": {
+      "major": 5,
+      "minor": 5,
+      "micro": 5,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dfa986eb534a5b0c6684343c9adc06614985e54f",
+    "jarFileModificationDate": "2015-02-12T11:07:52+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\itextpdf-5.5.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.jdt.core.compiler.batch",
+    "version": {
+      "major": 3,
+      "minor": 9,
+      "micro": 1,
+      "qualifier": "v20130905-0837"
+    },
+    "jarFileFingerprint": "21582b0e662b9e54fc6f0f2721d36f753ce7c58c",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\ecj-4.3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-ja",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0d26ab1b09e713a15b4ee5e6dc9252f4700a6924",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\tomcat-i18n-ja.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.gson",
+    "version": {
+      "major": 2,
+      "minor": 3,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ecb6e1f8e4b0e84c4b886c2f14a1500caf309757",
+    "jarFileModificationDate": "2015-04-05T19:38:14+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\gson-2.3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.itextpdf.itext-pdfa",
+    "version": {
+      "major": 5,
+      "minor": 5,
+      "micro": 5,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f9da559b6b761ae4a505aa00efde548142f577d4",
+    "jarFileModificationDate": "2015-02-12T11:08:12+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\itext-pdfa-5.5.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0ef9dc3c3c1cea2d6b17261bd76f3e630a792ebd",
+    "jarFileModificationDate": "2014-10-23T10:29:34.601+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\nashorn.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.itextpdf.itext-xtra",
+    "version": {
+      "major": 5,
+      "minor": 5,
+      "micro": 5,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bf16e90befe6e290e4ba4e117def7a02b0c05455",
+    "jarFileModificationDate": "2015-02-12T11:08:04+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\itext-xtra-5.5.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2a168e4dd5f0385ccde79ce9edf6643e6d1cbc97",
+    "jarFileModificationDate": "2014-10-23T10:29:34.601+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jsf-impl-1.2_08",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "afaa4613098a48a963d6fc1ea2a84d7925b42d8a",
+    "jarFileModificationDate": "2015-03-22T14:51:59.216+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Quotation_front_end\\WebContent\\WEB-INF\\lib\\jsf-impl-1.2_08.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7506799844f77ae2af5e8af3c86ed6ac2dd0b6ba",
+    "jarFileModificationDate": "2014-10-23T10:29:34.601+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "javax.faces.jsf-api",
+    "version": {
+      "major": 1,
+      "minor": 2,
+      "micro": 15,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1d68239961a6d93299e2fea764887da7ea2c80c0",
+    "jarFileModificationDate": "2015-03-22T15:50:06.364+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\libraries\\JSF 1.2 (Mojarra JSF API Implementation 1.2_15-b01-FCS) (2)\\mojarra-1.2_15-b01-FCS\\lib\\jsf-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a35ff82a676752d932475cbfaa8952e07f38e89c",
+    "jarFileModificationDate": "2014-10-23T10:29:34.601+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "170a818ae830776bffd23665cf522f811830c330",
+    "jarFileModificationDate": "2014-10-23T10:29:36.868+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "50cacbbe0917193605e4836a4312f6f20fb62366",
+    "jarFileModificationDate": "2014-10-23T10:29:37.178+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jasper",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ba493a12dbff57c23ecd3602e6559563d4eb37fb",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\jasper.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4838808e80df811cfb2bf7faf361b3cbc16f9f81",
+    "jarFileModificationDate": "2011-08-30T23:05:02+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\dns_sd.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "776ac53496e86e4637fe2a8c5849837f173cb661",
+    "jarFileModificationDate": "2014-10-23T10:29:34.591+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\access-bridge-64.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.itextpdf.itext-pdfa",
+    "version": {
+      "major": 5,
+      "minor": 5,
+      "micro": 5,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f9da559b6b761ae4a505aa00efde548142f577d4",
+    "jarFileModificationDate": "2015-02-12T11:08:12+05:30",
+    "location": "E:\\Stock n quotation\\jars used\\itext-5.5.5\\itext-pdfa-5.5.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3127b52e926d73fb3d1a3beaa124e091c80ced33",
+    "jarFileModificationDate": "2014-10-23T10:29:34.601+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5901c91fc48c514aed711bb4554f88138682961d",
+    "jarFileModificationDate": "2014-10-23T10:29:36.918+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "catalina-ha",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f15389fdbdb600659a714a40c11936a8aca1abe7",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\catalina-ha.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-fr",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e165e6dbc87a8c51b04a33c8a5f7824c7b67c033",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\tomcat-i18n-fr.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ojdbc6",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "77e8867a844930b6d2b8f895f557440766bdd9cf",
+    "jarFileModificationDate": "2014-05-29T12:15:06+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\ojdbc6.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c715754ecbff30b4f8d4902482239876ce45d868",
+    "jarFileModificationDate": "2014-10-23T10:29:37.118+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "598168aad1745f32c990f05e1b189c2d2ba1c626",
+    "jarFileModificationDate": "2014-10-23T10:29:34.601+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.google.gson.source",
+    "version": {
+      "major": 2,
+      "minor": 3,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "563dcb685903c96ce8abbd03adf7fa49e19aa8b4",
+    "jarFileModificationDate": "2015-04-05T19:38:26+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\gson-2.3.1-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jsf-impl-1.2",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "146da2d6c0a72d4f30d12c3091f6ee99174a342e",
+    "jarFileModificationDate": "2013-10-17T18:31:58+05:30",
+    "location": "E:\\Stock n quotation\\jars used\\JSF\\jsf-impl-1.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "javax.faces/com.sun.faces.mojarra-jsf-api",
+    "version": {
+      "major": 2,
+      "minor": 0,
+      "micro": 3,
+      "qualifier": "FCS"
+    },
+    "jarFileFingerprint": "e460ff3712cbe4ebbed48f11193b1d4339290e35",
+    "jarFileModificationDate": "2015-03-22T13:11:09.553+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\libraries\\JSF 2.0 (Mojarra 2.0.3-FCS) (1)\\mojarra-2.0.3-FCS\\lib\\jsf-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.googlecode.json-simple",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5",
+    "jarFileModificationDate": "2015-04-05T20:30:30+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\json-simple-1.1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "243517be110f63d4450d926aa104424b4ec5f51f",
+    "jarFileModificationDate": "2014-10-23T10:29:34.621+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "gson-2.3.1-javadoc",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0a2c3b265590d161acb53d3ca808e06c4041ab3a",
+    "jarFileModificationDate": "2015-04-05T19:38:24+05:30",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\gson-2.3.1-javadoc.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "annotations-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "37a193da3885c73fd7301d273b8c85adea8c428f",
+    "jarFileModificationDate": "2014-05-19T11:50:42+05:30",
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\annotations-api.jar",
+    "javaRuntime": false
+  }
+]

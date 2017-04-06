@@ -1,0 +1,135 @@
+function GetData()
+{
+	mainData={
+  "qtnNumber":$("#qtn_num").val(),
+  "companyName":$("#company_name").val(),
+  "address":$("#address").val(),
+  "name":$("#name").val(),
+  "subject":$("#subject").val(),
+  "reference":$("#ref").val(),
+  "freight":$("#freight").val(),
+  "remarks":$("#remarks").val(),
+  "payment":$("#payment").val(),
+	};
+ 
+ var oTable = document.getElementById('myTable');
+
+//gets rows of table
+var rowLength = oTable.rows.length;
+ data=new Array();
+//loops through rows    
+for (var i = 1; i < rowLength; i++){
+ var array=new Array();
+ 
+  //gets cells of current row
+  var oCells = oTable.rows.item(i).cells;
+
+  //gets amount of cells of current row
+  var cellLength = oCells.length;
+
+  //loops through each cell in current row
+  for(var j = 0; j < cellLength; j++){
+     /* get your cell info here */
+      var cellVal = oCells.item(j).firstChild.value;
+	  
+//	  var cellVal = oCells.item(j).childNodes[0].nodeValue;
+//      alert(cellVal);
+      array[j]=cellVal;  
+      
+      
+  }
+  rowData={
+	"serialNumber":array[0],
+	"partNumber":array[1],
+	"description":array[2],
+	"make":array[3],
+	"qty":array[4],
+	"moq":array[5],
+	"spq":array[6],
+	"leadTime":array[7],
+	"unitPrice":array[8]
+  };
+  
+  data.push(rowData);
+  
+}
+
+ jsonObjItems=JSON.stringify(data);
+ jsonObjMain=JSON.stringify(mainData);
+ 
+
+}
+ 
+
+
+
+
+
+function sendData()
+{
+	GetData();
+	alert("called");
+		$.ajax({url:"http://localhost:8082/Arbutus/Controller?argument=insert",
+		type:"POST",
+		data:{"details":jsonObjMain,"items":jsonObjItems},
+		async:false,
+		success:function(result){alert("called");}
+		});	
+
+}
+
+var allMake;
+var makeArray=[];
+
+function getData()
+{
+$.ajax({url:"http://localhost:8082/Arbutus/Controller?argument=getMake",
+	type:"POST",
+	async:false,
+	success:function(result){
+		
+		allMake=result;
+		dataObj=$.parseJSON(allMake);
+		dataObjE=dataObj[0].itemDesc;
+		alert(dataObj[i]);
+		makeArray.push("1."+dataObj[0].make);   //adding values to array
+	}
+	});	
+
+}
+function populates()
+{
+		$(".makeFill").autocomplete({
+		source:makeArray
+	});
+	
+	$(".makeFill").css("background-color", "white"); 
+
+}
+
+
+	var availableTags = [
+	"ActionScript",
+	"AppleScript",
+	"Asp",
+	"BASIC",
+	"C",
+	"C++",
+	"Clojure",
+	"COBOL",
+	"ColdFusion",
+	"Erlang",
+	"Fortran",
+	"Groovy",
+	"Haskell",
+	"Java",
+	"JavaScript",
+	"Lisp",
+	"Perl",
+	"PHP",
+	"Python",
+	"Ruby",
+	"Scala",
+	"Scheme"
+	];
+	

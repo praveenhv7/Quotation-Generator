@@ -1,0 +1,42 @@
+{
+  "E:\\Stock n quotation\\jars used\\itext-5.5.5\\itextpdf-5.5.5.jar": {
+    "location": "E:\\Stock n quotation\\jars used\\itext-5.5.5\\itextpdf-5.5.5.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027E:\\Stock n quotation\\jars used\\itext-5.5.5\\itextpdf-5.5.5.jar\u0027. Neither fingerprint \u0027dfa986eb534a5b0c6684343c9adc06614985e54f\u0027 nor symbolic name \u0027com.itextpdf\u0027 are known."
+  },
+  "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_25\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "E:\\Stock n quotation\\workspace\\Quotation_front_end\\src": {
+    "location": "E:\\Stock n quotation\\workspace\\Quotation_front_end\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\Stock n quotation\\workspace\\Quotation_front_end\\src\u0027. Skipped."
+  },
+  "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\servlet-api.jar": {
+    "location": "E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\servlet-api.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027E:\\software\\apache-tomcat-6.0.41-windows-x64\\apache-tomcat-6.0.41\\lib\\servlet-api.jar\u0027. Neither fingerprint \u00273abc24ee20d391ab5fc27d548c7b7149237b744d\u0027 nor symbolic name \u0027servlet-api\u0027 are known."
+  },
+  "E:\\Stock n quotation\\workspace\\Arbutus\\src": {
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\Stock n quotation\\workspace\\Arbutus\\src\u0027. Skipped."
+  },
+  "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\gson-2.3.1.jar": {
+    "coordinate": "com.google.gson:com.google.gson:zip:call:2.0.0",
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\gson-2.3.1.jar",
+    "status": "RESOLVED"
+  },
+  "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\json-simple-1.1.1.jar": {
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\json-simple-1.1.1.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\json-simple-1.1.1.jar\u0027. Neither fingerprint \u00275d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5\u0027 nor symbolic name \u0027com.googlecode.json-simple\u0027 are known."
+  },
+  "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\ojdbc6.jar": {
+    "location": "E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\ojdbc6.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027E:\\Stock n quotation\\workspace\\Arbutus\\WebContent\\WEB-INF\\lib\\ojdbc6.jar\u0027. Neither fingerprint \u002777e8867a844930b6d2b8f895f557440766bdd9cf\u0027 nor symbolic name \u0027ojdbc6\u0027 are known."
+  }
+}
